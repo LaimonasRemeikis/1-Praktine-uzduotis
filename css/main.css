@@ -16,16 +16,18 @@ body{
 .container {
     margin-left: calc(50% - 400px);
     display: inline-block;
-    width: 100;
+    width: 100%;
     margin-top: 30px;
-    height: 100vh;
+    
 }
+
 .container > .first {
     float: left;
       color: #AFAFAF;
       margin-right: 5%;
       margin-left: 5%;
       margin-top: 30px;
+      width: 15%;
 }
 .container > .second {
     display: inline-block;
@@ -34,6 +36,7 @@ body{
     margin-right: 5%;
       margin-left: 5%;
       margin-top: 30px;
+      width: 15%;
     
 }
 .container > .third
@@ -41,37 +44,44 @@ body{
     display: inline-block;
     float: left;
     color: #AFAFAF;
+    margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 30px;
+      width: 15%;
     
 }
 .container > .fourth{
     float: left;
     display: inline-block;
-
+    margin-right: 5%;
+      margin-left: 5%;
+     margin-top: 30px;
     color: #AFAFAF;
+    width: 15%;
 }
 .first-p {
     display: inline-block;
 }
 .img1 {
-    width: 25%;
+    width: 100%;
     float: left;
     object-fit: cover;
     object-position: center;
 }
 .img2{
-    width: 25%;
+    width: 100%;
     float: left;
     object-fit: cover;
     object-position: center;
 }
 .img3 {
-    width: 25%;
+    width: 100%;
     float: left;
     object-fit: cover;
     object-position: center;
 }
 .img4 {
-    width: 25%;
+    width: 100%;
     float: left;
     object-fit: cover;
     object-position: center;
@@ -81,7 +91,6 @@ body{
     display: inline-block;
     font-size: 32px;
     font-weight: normal;
-
 }
 .heading2 {
     font-weight: normal;
