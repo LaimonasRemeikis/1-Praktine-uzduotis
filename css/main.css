@@ -77,6 +77,27 @@ body{
     object-position: center;
     padding: 5px ;
 }
-.first paragraph {
-    
+.heading {font-weight: normal;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: normal;
+
+}
+.heading2 {
+    font-weight: normal;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: normal;
+}
+.heading3 {
+    font-weight: normal;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: normal;
+}
+.heading4 {
+    font-weight: normal;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: normal;
 }
