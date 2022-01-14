@@ -13,21 +13,17 @@
    transform: translate(-50%, -50%);
  }
  .container {
-     width: 620px;
-     margin-left: calc(50% - 600px);
-     margin-top: 40px;}
+     width: 90%;
+     margin: auto;}
     
 .container > .block{
     display: inline-block;
-    margin-left: calc(50% - 600px);
-    margin-top: 40px;
+    width: calc(90% / 4);
 }
  .galery {
      display: block;
-    margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin:auto 10%;
     width: 40%;
  }
  
