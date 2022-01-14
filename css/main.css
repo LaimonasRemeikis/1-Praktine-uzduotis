@@ -7,36 +7,45 @@
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  .body{
-   position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
  }
  .container {
-     width: 90%;
-     margin: auto;}
+     width:100%;
+     margin: auto;
+    vertical-align: top;}
     
 .container > .block{
     display: inline-block;
-    width: calc(90% / 4);
+    width: calc(96% / 4);
+    padding: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
 }
  .galery {
      display: block;
     margin-bottom: 10%;
     margin:auto 10%;
-    width: 40%;
+    width: 60%;
+    margin-top: 40%;
+    margin-left: 20%;
+    border: 10px solid #e36f5e;
+    
  }
  
  .paragraph {
      display: inline-block;
+     text-align: center;
+     margin-top: 15%;
  }
- .center {
-     display: inline;
- }
+
+ 
  .heading {
     text-align: center;
     color: #e36f5e;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
+    margin-top: 15%;
+    display: inline-block;
 }
